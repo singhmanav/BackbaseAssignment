@@ -1,5 +1,4 @@
 node('iOS Node') {
-    stages{
     stage('Checkout/Build/Test') {
 
         // Checkout files.
@@ -44,6 +43,5 @@ node('iOS Node') {
     stage ('Notify') {
         // Send slack notification
         slackSend channel: '#my-team', message: 'Time Table - Successfully', teamDomain: 'my-team', token: 'my-token'
-    }
     }
 }
