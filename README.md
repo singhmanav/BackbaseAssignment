@@ -15,4 +15,4 @@ Every terminating node of trie stores corresponding city data which is again arr
 The project can be run using Xcode 10.2 and built/tested using the standard Xcode build (⌘B) and test (⌘U) commands.
 
 ## Disclaimer :
-The icons are taken from [Backbase](https://backbase.com/).
+The icons are taken from [Backbase](https://backbase.com/)..
