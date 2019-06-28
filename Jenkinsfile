@@ -3,6 +3,6 @@ node {
         checkout scm
 
     stage 'Build'
-      	buildStatus= sh returnStatus: true, script:"sh xcodebuild -scheme "BackbaseAssignment" -configuration "Debug" build" 
+      	buildStatus= sh returnStatus: true, script:"xcodebuild -scheme "BackbaseAssignment" -configuration "Debug" build" 
       	echo "Build status : ${buildStatus}"
 }
