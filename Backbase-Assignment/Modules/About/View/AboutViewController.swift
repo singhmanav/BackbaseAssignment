@@ -36,7 +36,7 @@ class AboutViewController : UITableViewController {
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.tableView.separatorStyle = .none
-        
+        print("Hello")
         self.navigationItem.titleView = self.activityIndicatorView
         self.activityIndicatorView.hidesWhenStopped = true
     }
